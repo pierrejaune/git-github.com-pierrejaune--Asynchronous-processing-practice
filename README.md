@@ -2,4 +2,4 @@
 
 [参考リンク](https://qiita.com/Abbiscuit/items/66ee955509284e941803)
 
-### async await、axios を使用せず GET する記述方法
+### async,await,try,catch を使用した記述に変更
