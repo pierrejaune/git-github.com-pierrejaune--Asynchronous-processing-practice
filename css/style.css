@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  text-align: center;
+}
+
+.post-area {
+  width: 900px;
+  margin: 50px auto;
+}
+.post-list-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.post-el {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.post-el:nth-child(odd) {
+  background-color: azure;
+}
+.post-el:nth-child(even) {
+  background-color: beige;
+}
+.post-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: self-end;
+}
+.post-image {
+  width: 100%;
+}
+.post-title {
+  width: 100%;
+}
